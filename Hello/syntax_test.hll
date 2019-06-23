@@ -1,0 +1,42 @@
+x = 0x12;
+y = 0x33;
+
+z = x + y;
+
+for i in [0 .. 20]
+{
+}
+
+cnt = 0x00;
+for i in [0 .. 20]
+{
+	for k in [2 .. 5]
+	{
+		cnt = cnt + 0x01;
+		x = x + cnt;
+	}
+}
+
+# A comment. 
+
+if ( x < y )
+{
+}
+
+a = 0x10;
+b = 0x13;
+for i in [1 .. 25]
+{
+	if( x == y )
+	{
+		b = 0x14;
+	}
+	else
+	{	
+		#Yet another comment.
+		if(a == b  || (x < y))
+		{
+			b = 0x15;
+		}
+	}
+}

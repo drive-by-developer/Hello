@@ -1,0 +1,3 @@
+cp *.hll backup  
+cp *.script backup 
+cp *.txn backup  

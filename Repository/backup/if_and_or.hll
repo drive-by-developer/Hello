@@ -1,0 +1,20 @@
+x = 2;
+y = 2;
+
+if(x + y == 5 or x == 2)
+{
+	w = 1;
+}
+else
+{
+	w = 0;
+}
+Assert(w == 1);
+
+flag = 0;
+if(x == 2 and y == 2)
+{
+	flag = 1;
+}
+Assert(flag == 1);
+	

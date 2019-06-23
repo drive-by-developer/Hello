@@ -1,0 +1,9 @@
+*.[oa]
+HelloGUI/*
+GUI/*
+archive/*
+Releases/*
+seeder/*
+x64/*
+.vs/*
+Hello_compiler

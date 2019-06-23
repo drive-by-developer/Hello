@@ -1,0 +1,21 @@
+for k in [1 .. 5]
+{
+}
+
+cnt = 0x02;
+for i in [0 .. 2]
+{
+	cnt = cnt + i;
+}
+
+x = 0x1234;
+cnt = 0x00;
+for i in [0 .. 2]
+{
+	for k in [2 .. 5]
+	{
+		cnt = cnt + 0x01;
+		x = x + cnt;
+	}
+}
+

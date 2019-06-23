@@ -1,0 +1,16 @@
+x = 0x1234567890;
+
+y = split(x, 3);
+
+z = tos;
+
+Assert(y == 0x7890);
+Assert(tos == 0x123456);
+
+w = cat(z, y);
+
+Assert(w == 0x1234567890);
+
+tos = w;
+Assert(tos == 0x1234567890);
+

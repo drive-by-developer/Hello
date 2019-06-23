@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Bitcoin">
+      <UniqueIdentifier>{79da464c-72b8-4c41-8b01-09edbb13ae70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Bitcoin\crypto">
+      <UniqueIdentifier>{593b20d3-99df-4f3c-a940-90f8513ea8b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Bitcoin\script">
+      <UniqueIdentifier>{61c8af04-a83f-4b18-b13a-a5ce5c4342ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Bitcoin\secp256k1">
+      <UniqueIdentifier>{6ceedab1-6892-4391-be23-79a18b413297}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Bitcoin\secp256k1\src">
+      <UniqueIdentifier>{e986bfeb-47ae-4854-ae36-c54362a1c56c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Bitcoin\src\script\script.h">
+      <Filter>Bitcoin\script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\Internals.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AST.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="parser.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tokeniser.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Hello_compiler.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\bitcoin\src\script\script_error.h">
+      <Filter>Bitcoin\script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Bitcoin\src\utilstrencodings.h">
+      <Filter>Bitcoin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\bitcoin\src\pubkey.h">
+      <Filter>Bitcoin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\bitcoin\src\hash.h">
+      <Filter>Bitcoin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\bitcoin\src\script\interpreter.h">
+      <Filter>Bitcoin\script</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="HelloDll.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Hello_compiler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AST.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="parser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bitcoin\src\script\script.cpp">
+      <Filter>Bitcoin\script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bitcoin\src\script\script_error.cpp">
+      <Filter>Bitcoin\script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bitcoin\src\script\standard.cpp">
+      <Filter>Bitcoin\script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bitcoin\src\crypto\hmac_sha512.cpp">
+      <Filter>Bitcoin\crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bitcoin\src\crypto\ripemd160.cpp">
+      <Filter>Bitcoin\crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bitcoin\src\crypto\sha1.cpp">
+      <Filter>Bitcoin\crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bitcoin\src\crypto\sha256.cpp">
+      <Filter>Bitcoin\crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bitcoin\src\crypto\sha512.cpp">
+      <Filter>Bitcoin\crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Bitcoin\src\utilstrencodings.cpp">
+      <Filter>Bitcoin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bitcoin\src\uint256.cpp">
+      <Filter>Bitcoin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bitcoin\src\pubkey.cpp">
+      <Filter>Bitcoin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bitcoin\src\secp256k1\src\secp256k1.c">
+      <Filter>Bitcoin\secp256k1\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bitcoin\src\hash.cpp">
+      <Filter>Bitcoin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bitcoin\src\script\interpreter.cpp">
+      <Filter>Bitcoin\script</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

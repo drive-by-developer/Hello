@@ -1,0 +1,41 @@
+L10 0x12345678901234567890
+L4 0x33338888
+
+# Split the first big number into 3 byte chunks
+3 SPLIT
+
+#split the second big number into 3 byte chunks
+2 ROLL
+3 SPLIT 3 SPLIT
+
+# Add the least significant bytes from each number 
+# Add 0x00 to numbers to generate carry
+2 ROLL
+L1 0x00 CAT
+4 ROLL
+L1 0x00 CAT
+ADD
+3 SPLIT
+
+# Add the next significant bytes
+3 ROLL
+L1 0x00 CAT
+4 ROLL
+L1 0x00 CAT
+ADD
+SIZE  # Generate carry
+4 LESSTHAN
+IF L1 0x00 ELSE 3 SPLIT ENDIF
+
+# Add next significant bytes
+4 ROLL
+ADD
+1 ROLL
+2 ROLL
+ADD  
+
+# Concatenate parts to get answer               
+1 ROLL CAT
+CAT
+
+Breakpoints

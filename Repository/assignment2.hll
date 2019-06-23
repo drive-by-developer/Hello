@@ -1,0 +1,14 @@
+x = 0x12345678901234567890;
+y =0x33338888;
+z= 0x5678;
+
+x = y; # assignment to variable lower in alt-stack
+
+w = 0x9876;
+
+w = y  # assignment to higher in alt-stack
+;
+
+Assert(x == 0x33338888);
+Assert(y == 0x33338888);
+Assert(w == 0x33338888);

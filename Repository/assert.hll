@@ -1,0 +1,4 @@
+x = 0x12;
+
+Assert(x == 0x12);  # success
+Assert(x < 0x12);   # failure 

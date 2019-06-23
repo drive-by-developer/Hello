@@ -1,0 +1,8 @@
+./Hello.exe -f cat.hll
+./Hello.exe -f assert.hll
+./Hello.exe -f assignment.hll
+./Hello.exe -f assignment2.hll
+./Hello.exe -f for_loop.hll
+./Hello.exe -f if_and_or.hll
+./Hello.exe -f split_cat.hll
+./Hello.exe -f syntax_test.hll
